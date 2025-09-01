@@ -5,4 +5,5 @@
 ##### grupo:
 - Ágata Oliveira
 - Arthur Cézar
+- César Kauan
 - Giselly Rocha

@@ -6,7 +6,6 @@ df = pd.read_csv(r'C:\Users\gisel\OneDrive\Documentos\codesDocs\StressLevelDatas
 
 print(df.columns)
 
-'''
 # Criar o histograma de barras
 plt.figure(figsize=(10, 6))
 sns.histplot(data=df, x='stress level', bins=10, kde=False)
@@ -47,4 +46,3 @@ sns.boxplot(data=df_no_outliers, y='stress level')
 plt.title('Boxplot do Nível de Estresse (sem Outliers)')
 plt.ylabel('Nível de Estresse')
 plt.show()
-'''
