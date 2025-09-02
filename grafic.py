@@ -4,6 +4,19 @@ import seaborn as sns
 
 df = pd.read_csv('StressLevelDataset.csv')
 
+#Só pra ver as métricas do dataset
+print("Primeiras 5 linhas do DataFrame:")
+print(df.head())
+
+print("\nEstatísticas descritivas da coluna 'stress_level':")
+print(df['stress_level'].describe())
+
+print("\nValores únicos na coluna 'stress_level':")
+print(df['stress_level'].unique())
+
+print("\nContagem de valores na coluna 'stress_level':")
+print(df['stress_level'].value_counts())
+
 # Criar o histograma de barras
 plt.figure(figsize=(10, 6))
 sns.histplot(data=df, x='stress_level', bins=10, kde=False)
