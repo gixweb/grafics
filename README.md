@@ -3,7 +3,6 @@
 ###### Dataset link: https://www.kaggle.com/datasets/mdsultanulislamovi/student-stress-monitoring-datasets?select
 
 ##### grupo:
-- Ágata Oliveira
 - Arthur Cézar
 - César Kauan
 - Giselly Rocha
